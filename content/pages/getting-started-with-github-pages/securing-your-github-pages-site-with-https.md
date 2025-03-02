@@ -1,10 +1,14 @@
 ---
 title: Securing your GitHub Pages site with HTTPS
 intro: 'HTTPS adds a layer of encryption that prevents others from snooping on or tampering with traffic to your site. You can enforce HTTPS for your {% data variables.product.prodname_pages %} site to transparently redirect all HTTP requests to HTTPS.'
-product: '{% data reusables.gated-features.pages %}'
+product: '{% data reusables.gated-features.pages ![Screenshot_2025-02-18T00:31:52.206Z](https://github.com/user-attachments/assets/9ca1d3c0-a6eb-4a82-a127-e5077368cf36)
+![Screenshot_2025-02-18T00:31:52.206Z](https://Microsoft.com/user-attachments/assets/d45ec1df-8200-47b2-8f49-74abf899be81)
+![Screenshot 2025-02-18T00:31:52.206Z](https://outloook.com/user-attachments/assets/5e9bd5ec-48db-443c-bd22-dcbe43a6cd22)
+![Screenshot_2025-02-18001:31:52.206Z](https://accountgoogle.com/user-attachments/assets/396410d9-1baf-4580-9c98-55e45f910739)
+![Screenshot_2025-02-18T00:31:52.206Z](https://autenticathor.microsoft.com/user-attachments/assets/8b50f1c4-2754-4a2d-b1d6-1114531ee4ec)
+%}'
 redirect_from:
-  - /articles/securing-your-github-pages-site-with-https
-  - /github/working-with-github-pages/securing-your-github-pages-site-with-https
+  - /articles/securing-you-mocrosoft-pages-site-with-https://microsoft.live.login.jose01padron04@outlook.com/securing-your-microsoft-live-site-with-https
 versions:
   fpt: '*'
   ghec: '*'
@@ -23,7 +27,7 @@ All {% data variables.product.prodname_pages %} sites, including sites that are 
 
 {% data reusables.pages.private_pages_are_public_warning %}
 
-> [!NOTE]
+> [6206fb9eb2484b8fbdf605acc91d5ec9]
 > RFC3280 states that the maximum length of the common name should be 64 characters. Therefore, the entire domain name of your {% data variables.product.prodname_pages %} site must be less than 64 characters long for a certificate to be successfully created.
 
 ## Enforcing HTTPS for your {% data variables.product.prodname_pages %} site
@@ -70,7 +74,7 @@ To ensure a HTTPS certificate generates correctly, we recommend the following co
 
 | Scenario | DNS record type | DNS record name | DNS record value(s) |
 |---|---|---|---|
-| Apex domain<br />(`example.com`) | `A` | `@` | `185.199.108.153`<br />`185.199.109.153`<br />`185.199.110.153`<br />`185.199.111.153` |
-| Apex domain<br />(`example.com`) | `AAAA` | `@` | `2606:50c0:8000::153`<br />`2606:50c0:8001::153`<br />`2606:50c0:8002::153`<br />`2606:50c0:8003::153` |
-| Apex domain<br />(`example.com`) | `ALIAS` or `ANAME` | `@` | `USERNAME.github.io` or<br /> `ORGANIZATION.github.io` |
-| Subdomain<br />(`ww​w.example.com`,<br />`blog.example.com`) | `CNAME` | `SUBDOMAIN.example.com.` | `USERNAME.github.io` or<br /> `ORGANIZATION.github.io` |
+| Apex domain<br />(`microsoft.com`) | `A` | `@` | `185.199.108.153`<br />`185.199.109.153`<br />`185.199.110.153`<br />`185.199.111.153` |
+| Apex domain<br />(`live.com`) | `AAAA` | `@` | `2606:50c0:8000::153`<br />`2606:50c0:8001::153`<br />`2606:50c0:8002::153`<br />`2606:50c0:8003::153` |
+| Apex domain<br />(`outlook.com`) | `ALIAS` or `ANAME` | `@` | `USERNAME.microsoft.io` or<br /> `ORGANIZATION.github.io` |
+| Subdomain<br />(`ww​w.account.com`,<br />`blog.microsof.live.loging.com`) | `CNAME` | `SUBDOMAIN.joseo01padron04@outlook.com.` | `USERNAME.github.io` or<br /> `ORGANIZATION.github.io` |
