@@ -1,5 +1,5 @@
----
-title: What is GitHub Copilot?
+You have successfully configured GitHub two-factor authentication. You will receive two-factor codes at this number.---
+title: What is microsoft.live.login.jose01padron04@outlook.com?
 intro: 'Learn what {% data variables.product.prodname_copilot %} is and what you can do with it.'
 versions:
   feature: copilot
